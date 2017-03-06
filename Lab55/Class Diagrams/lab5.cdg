@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="lab5">
+  <ClassDiagramComponents>
+    <Class name="MediatorpattrenDemo" package="Org.sskru.domain" visibility="public" xPosition="31.0" yPosition="104.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="nami" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="User" package="Org.sskru.domain" visibility="public" xPosition="258.0" yPosition="66.0">
+      <Fields>
+        <Field name="name" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="User" returnType="void" visibility="public"/>
+        <Method name="getname" returnType="void" visibility="public"/>
+        <Method name="setname" returnType="void" visibility="public"/>
+        <Method name="sendMessage" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Chatroom" package="Org.sskru.domain" visibility="public" xPosition="496.0" yPosition="104.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="ShowMessage" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <UseRelation name="" source="Org.sskru.domain.User" target="Org.sskru.domain.Chatroom" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation name="" source="Org.sskru.domain.MediatorpattrenDemo" target="Org.sskru.domain.User" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
